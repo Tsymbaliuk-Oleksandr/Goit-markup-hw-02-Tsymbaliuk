@@ -1,0 +1,162 @@
+/* Heder*/
+
+.header-logo-web,
+.footer-logo-web {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.header-logo-studio,
+.footer-logo-studio {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-list {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.header-list:hover,
+.header-list:focus,
+.header-list:active {
+    color: #2196F3;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-mail, 
+.header-tel {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-mail:hover,
+.header-mail:focus,
+.header-mail:active,
+.header-tel:hover,
+.header-tel:focus,
+.header-tel:active {
+    color: #2196F3;
+}
+
+/* Main */
+
+main {
+   font-family: Roboto;
+    text-align: center;
+}
+
+.first-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    letter-spacing: 0.06em;
+    background: #2F303A;
+    color: #FFFFFF;
+}
+
+.header-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,88;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.second-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.second-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.third-title,
+.fourth-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.foto-item {
+    text-align: center;
+}
+
+.name-list {
+    text-align: center;
+}
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.work-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Footer */
+
+
+.footer-list {
+    font-family: Roboto;
+}
+
+.footer-sait {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-mail,
+.footer-tel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
