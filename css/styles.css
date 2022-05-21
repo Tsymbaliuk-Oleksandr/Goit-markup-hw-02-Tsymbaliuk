@@ -3,7 +3,7 @@
     --btn-color: #FFFFFF; /*зміння для конопки */
     --btn-background: #2196F3; /*зміння для конопки */
     --title-text-color: #212121; /* основний колір для тексту*/
-    --secondery-text-color: #757575; /*другорядний текст, використаний в абзацах*/
+    --contacts-color: #757575; /*другорядний текст, використаний в абзацах*/
     --accent-color: #2196F3; /*колір при наведенні корсора мишки*/
     --fon-title-background: #2F303A; /*колір закраски header, footer*/
 }
@@ -70,7 +70,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--title-text-color);
+    color: var(--contacts-color);
 }
 
 .header-mail:hover,
@@ -123,7 +123,7 @@ main {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--secondery-text-color);
+    color: var(--contacts-color);
 }
 
 .third-title,
@@ -152,7 +152,7 @@ main {
 .work-item {
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--secondery-text-color);
+    color: var(--contacts-color);
 }
 
 /* Footer */
@@ -202,24 +202,27 @@ address {
 
 /* Portfolio */
 
-.portfolio-list {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    letter-spacing: 0.03em;
-    box-shadow: rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.12);
-    color: var(--title-text-color);
-}
-
 .portfolio-item-all {
+    font-family: inherit;
     color: var(--btn-color);
     background: var(--accent-color);
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .portfolio-item {
+    font-family: inherit;
     color: var(--title-text-color);
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .portfolio-item:hover,
@@ -239,5 +242,5 @@ address {
 .portfolio-text {
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: var(--secondery-text-color);
+    color: var(--contacts-color);
 }
